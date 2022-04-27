@@ -1,4 +1,5 @@
 'use strict';
+let allemp=[];
 
 function Emp(emp,na,dep,lev,img)
 {
@@ -8,6 +9,7 @@ function Emp(emp,na,dep,lev,img)
     this.level=lev;
     this.image=img;
     this.calc();
+    allemp.push(this);
 }
 Emp.prototype.calc=function()
 {
